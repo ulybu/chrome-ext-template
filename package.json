@@ -1,0 +1,24 @@
+{
+  "name": "chrome-ext-template",
+  "version": "0.1.0",
+  "description": "Dashboard for github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "node_modules/.bin/gulp sync-package-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulybu/chrome-ext-template.git"
+  },
+  "author": "Ulysse Prygiel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulybu/chrome-ext-template/issues"
+  },
+  "homepage": "https://github.com/ulybu/chrome-ext-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-config-sync": "^1.0.2"
+  }
+}
