@@ -3,5 +3,10 @@
   "name": "chrome-ext-template",
   "version": "0.1.0",
   "description":"chrome-ext-template",
-	"author": "ulysse.prygiel@gmail.com"
+  "author": "ulysse.prygiel@gmail.com",
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": true
+  },
+  "options_page": "options/options.html"
 }
