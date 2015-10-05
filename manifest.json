@@ -8,5 +8,9 @@
     "page": "options/options.html",
     "chrome_style": true
   },
-  "options_page": "options/options.html"
+  "options_page": "options/options.html",
+  "browser_action": {
+    "default_title": "chrome-ext-template",
+    "default_popup": "action/popup.html"
+  }
 }
