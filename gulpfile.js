@@ -6,7 +6,7 @@ var gulp = require('gulp')
   , manifest = require('./manifest.json')
   ;
 var projectProperties = {
-  name:'chrome-ext-template',
+  name: manifest.name,
   version: manifest.version
 };
 var zipName = projectProperties.name + '_' + projectProperties.version + '.zip';
